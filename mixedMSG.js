@@ -1,4 +1,7 @@
 //words arrays
+const firstArray=[]
+const secondArray=[]
+const thirdArray=[]
 
 
 
@@ -25,3 +28,8 @@ const messageGenerator=(first, second, third)=>{
     console.log(`${first} ${second} ${third}`)
     return `${first} ${second} ${third}`
 }
+
+
+
+//playing the code
+messageGenerator(firstWord(firstArray), secondWord(secondArray), thirdWord(thirdArray))
