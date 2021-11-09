@@ -1,7 +1,7 @@
 //words arrays
-const firstArray=[]
-const secondArray=[]
-const thirdArray=[]
+const firstArray=['The dog', 'The man', 'The creep']
+const secondArray=['kills', 'eats', 'loves']
+const thirdArray=['children', 'women', 'bugs']
 
 
 
@@ -25,8 +25,8 @@ const thirdWord=arr=>{
 
 //message generator
 const messageGenerator=(first, second, third)=>{
-    console.log(`${first} ${second} ${third}`)
-    return `${first} ${second} ${third}`
+    console.log(`${first} ${second} ${third}.`)
+    return `${first} ${second} ${third}.`
 }
 
 
